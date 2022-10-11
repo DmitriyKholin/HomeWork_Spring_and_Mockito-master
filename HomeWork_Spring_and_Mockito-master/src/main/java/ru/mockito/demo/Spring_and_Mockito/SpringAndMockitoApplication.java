@@ -10,6 +10,7 @@ import java.util.Random;
 @SpringBootApplication
 public class SpringAndMockitoApplication {
 
+
 	private static final List<String> setOfNames = new ArrayList<>(List.of("Semyon Semyonovich Gorbunkov", "Fyodor Mikhailovich Sukhov",
 			"Pavel Artemyevich Vereshchagin", "Max Otto von Schtirlitz", "Afanasiy Nikolaevich Borshchyov",
 			"Yevgeniy Ivanovich Troshkin", "Anton Semyonovich Shpak", "Ivan Vasilyevich Bunsha",

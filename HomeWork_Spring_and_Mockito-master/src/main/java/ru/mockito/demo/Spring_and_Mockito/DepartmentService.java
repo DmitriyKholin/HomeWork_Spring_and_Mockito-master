@@ -16,6 +16,7 @@ public class DepartmentService {
         return employeeService.maxSalaryInDepartment(departmentId);
     }
 
+
     public Optional<Employee> minSalaryInDepartment(Integer departmentId) {
         return employeeService.minSalaryInDepartment(departmentId);
     }

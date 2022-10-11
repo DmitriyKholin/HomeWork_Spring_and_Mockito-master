@@ -11,6 +11,7 @@ public class Employee {
     private final double salary;
     private final int departmentId;
 
+
     public Employee(String name, String middlename, String surname, int departmentId, Double salary, int id)
     {   this.name = name;
         this.middlename = middlename;

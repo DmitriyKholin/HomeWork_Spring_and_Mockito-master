@@ -9,6 +9,7 @@ import static ru.mockito.demo.Spring_and_Mockito.SpringAndMockitoApplication.sta
 @Service
 public class EmployeeService {
 
+
     public Stream<String> allStaff(){
         return staff.stream().map(Employee::toString);
     }
